@@ -1,11 +1,86 @@
 body {
-    font-family: Arial,  sans-serif; /* Familia de fuentes */
-    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
-    background-color: #78fc50; /* El color del fondo de la página web */
-    color: #333333; /* El color del texto*/ 
+    font-family: 'Inter',  sans-serif; /* Familia de fuentes */
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px; /* El tamaño de la fuente principal en el tag <p></p> */
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    color: #00a800; /* El color de la cabecera */
+h1, h2, h3, h4, h5, h6 {
+    color: #5988FF; /* El color de la cabecera */
     font-size: 24px; /* El tamaño de la fuente de la cabecera */
-    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    font-family: 'Inter'; /* La familia tipográfica utilizada en la cabecera */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #FD98FB; /* Rosa para los enlaces */
+    text-decoration: underline;
+    text-decoration-color: #FD98FB; /* Rosa para el subrayado */
+}
+
+/* Efecto al pasar el ratón sobre el enlace */
+a:hover {
+    color: #D6FF6B; /* Verde para los enlaces al pasar el ratón */
+    text-decoration-color: #D6FF6B; /* Verde para el subrayado al pasar el ratón */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #5988FF; /* Azul de fondo para los botones */
+    color: #FFFFFF; /* Color blanco para el texto de los botones */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+/* Efecto al pasar el ratón sobre los botones */
+button:hover {
+    background-color: #FD98FB; /* Rosa para el fondo al pasar el ratón */
+}
+
+/* Estilo para los cuadros de texto */
+input[type="text"], textarea {
+    border: 2px solid #5988FF; /* Azul para los bordes de los campos de texto */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #5988FF; /* Azul para el fondo del footer */
+    color: #FFFFFF; /* Blanco para el texto del footer */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para los bloques con borde */
+.bordered {
+    border: 2px solid #D6FF6B; /* Verde para los bordes */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Otros ajustes de texto */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000; /* Color del texto para párrafos */
+}
+
+/* Estilo de los encabezados secundarios */
+h2 {
+    font-size: 28px;
+    color: #FD98FB; /* Rosa para los encabezados secundarios */
 }
